@@ -97,7 +97,7 @@
         <section id="best-offer" class="my-10">
             <div class="flex flex-col px-5 sm:px-0 sm:flex-row justify-between gap-20">
                 <div
-                    class="flex gap-8 rounded-2xl px-20 sm:px-10 py-3 sm:py-5 h-[300px] md:h-[200px] items-center bg-[#FFBF0F]">
+                    class="flex gap-3 md:gap-8 rounded-2xl px-14 sm:px-10 py-3 sm:py-5 h-[300px] md:h-[200px] items-center bg-[#FFBF0F]">
                     <div class="">
                         <h1 class="text-3xl font-bold font-inter">15% OFF</h1>
                         <p> <span class="font-bold">on your next purchase</span>
@@ -110,7 +110,8 @@
                         <p class="text-lg">Coupon Code</p>
                     </div>
                 </div>
-                <div class="flex gap-8 rounded-2xl px-20 py-3 h-[300px] md:h-[200px] items-center bg-[#F78C9C]">
+                <div
+                    class="flex gap-3 md:gap-8 rounded-2xl px-14 py-3 h-[300px] md:h-[200px] items-center bg-[#F78C9C]">
                     <div class="">
                         <h1 class="text-3xl font-bold font-inter">20% OFF</h1>
                         <p> <span class="font-bold">on your next purchase</span>
@@ -138,7 +139,7 @@
             </div>
             <!-- cart  -->
             <div class="font-inter">
-                <div class="flex flex-col md:flex-row p-10">
+                <div class="flex flex-col md:flex-row p-2">
                     <div class="rounded-2xl w-full bg-white md:w-[70%] p-10">
                         <div class="flex  justify-between gap-10 mb-5">
                             <div class="flex flex-col md:flex-row gap-5">
@@ -149,8 +150,8 @@
                                 </div>
                             </div>
                             <div>
-                                <button class="btn button "><img src="./images/seat-green.png" alt=""> <span
-                                        id="total-seat">40</span>seats
+                                <button class="btn button"><img src="./images/seat-green.png" style="height: 20px;"
+                                        alt=""> <span id="total-seat">40</span>seats
                                     left</button>
                             </div>
                         </div>
@@ -172,7 +173,7 @@
                     </div>
                     <img class="hidden md:flex" src="./images/info-devider.png" alt="">
                     <div
-                        class="flex mt-5 sm:mt-0 w-full flex-col justify-center items-center bg-white px-10 rounded-2xl md:w-[20%]">
+                        class="flex mt-5 sm:mt-0 w-full flex-col justify-center items-center bg-white p-5 md:px-5 rounded-2xl md:w-[20%]">
                         <img src="images/fare.png" alt="">
                         <h1 class="text-2xl font-bold">550 Taka</h1>
                         <p class="text-lg">Per Seat</p>
@@ -373,12 +374,12 @@
     </main>
     <footer class=" p-10 bg-black ">
         <div class="max-w-[1240px] container mx-auto">
-            <div class="flex justify-between border-gray-400 border-b-2 border-dotted mb-5">
+            <div class="flex flex-col md:flex-row justify-between border-gray-400 border-b-2 border-dotted mb-5">
                 <div>
                     <h1 class="text-3xl font-bold text-white">E-Ticket</h1>
                     <p class=" text-gray-300">E-Ticket is a digital platform to make your daily commuting better.</p>
                 </div>
-                <div class="text-white font-inter mb-5">
+                <div class="text-white font-inter mb-5 mt-5 sm:mt-0">
                     <h1 class="font-bold text-md">Download our app</h1>
                     <div class="flex gap-4 mt-2">
                         <img src="./images/playstore.png" alt="">
@@ -388,8 +389,13 @@
                     </div>
                 </div>
             </div>
-            <div class="text-white">
-                <h3>@all rights reserved, E-Ticket services limited.2024</h3>
+            <div class="text-white flex justify-between gap-5">
+                <h3 class="text-gray-300">@all rights reserved, E-Ticket services limited.2024</h3>
+                <div class="flex flex-col md:flex-row justify-between gap-5">
+                    <p>Terms & condition</p>
+                    <p>Return & refund policy</p>
+                    <p>Privacy policy</p>
+                </div>
             </div>
         </div>
 
